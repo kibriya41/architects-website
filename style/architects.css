@@ -3,3 +3,74 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* shard style */
+.display-flex{
+  display: flex;
+}
+
+.text-color-dark02{
+  color: #424242;
+}
+
+.text-color-dark03{
+  color: #727272;
+}
+
+.btm-primary{
+  background-color: #FF900E;
+  color: #ffffff;
+  padding: 20px 25px;
+  font-weight: 600px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border:none;
+}
+
+/* header style */
+header{
+  background-color:rgba(255, 144, 14, 0.1);
+  display: ;
+}
+
+/* nav style */
+.nav-container{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brind{
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.menu{
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav-container,.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner style */
+.banner-container{
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.banner-header{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner-description{
+  font-size: 1rem;
+}
