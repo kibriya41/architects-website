@@ -130,4 +130,17 @@ header{
 .banner-img{
   width: 100%;
 }
+
+/* features style */
+.features-section{
+  display: block;
+  text-align: center;
+  width: 95%;
+}
+
+.features-img-containe{
+  grid-template-columns: repeat(1,1fr);
+}
+
+
 }
